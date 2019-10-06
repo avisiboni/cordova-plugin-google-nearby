@@ -2,6 +2,7 @@ package org.apache.cordova;
 import android.util.Log;
 import org.apache.cordova.*;
 import org.apache.cordova.PluginResult;
+import org.apache.cordova.CallbackContext;
 
 import org.json.JSONArray;
 import org.json.JSONException;
