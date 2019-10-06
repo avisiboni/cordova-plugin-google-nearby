@@ -1,6 +1,7 @@
 var exec = require('cordova/exec');
 var nearby = {
 subscribe: function (successCallback, errorCallback) {
+        console.log('goes here?');
         exec(successCallback, errorCallback, "NearbyPlugin", "subscribe");
     },
 
